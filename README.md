@@ -1,4 +1,4 @@
-# Appium test setup
+# Appium test
 
 ## Before anything else
 
