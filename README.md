@@ -24,7 +24,7 @@ If you changed the name of the apk, please change the reference inside the `feat
 
 ## Executing the tests
 
-Execute the following command on the root folder:
+Execute the following command on the root folder of the repository:
 
 ```
 cucumber
