@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 require 'appium_lib'
-require 'rspec/wait'
-require 'active_support/time'
 
 require_relative File.expand_path(File.dirname(__FILE__) + '/../screens/base_screen.rb')
 require_relative 'common'
@@ -25,5 +23,3 @@ opts = {
 
 Appium::Driver.new(opts, true)
 Appium.promote_appium_methods Object
-
-World(RSpec::Wait)

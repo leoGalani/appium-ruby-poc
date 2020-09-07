@@ -87,8 +87,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
-    rspec-wait (0.0.9)
-      rspec (>= 3, < 4)
     rubocop (0.90.0)
       parallel (~> 1.10)
       parser (>= 2.7.1.1)
@@ -122,12 +120,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
   appium_lib
   appium_lib_core
   cucumber
   rspec
-  rspec-wait
   rubocop
 
 BUNDLED WITH
