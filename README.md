@@ -30,6 +30,14 @@ Execute the following command on the root folder of the repository:
 cucumber
 ```
 
+You can also run the profile _smoke_ that will only run tests with the tag __smoke_test__
+
+
+```
+cucumber -p smoke
+```
+
+
 ## Rubocop
 
 This repository is 100% rubocop complient with no disables.
