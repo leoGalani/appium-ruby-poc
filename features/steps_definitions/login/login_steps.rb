@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Then(/^the user should not be able to access the wrong credentials/) do |credentials|
   log_in_page = LoginScreen.new
   expect(log_in_page.email_input.displayed?).to be true
