@@ -1,0 +1,2 @@
+default: -f pretty -f html -o report.html
+smoke: -p default -t @smoke_test
